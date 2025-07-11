@@ -46,47 +46,48 @@
 <div class="overflow-x-hidden relative w-full">
      
   <!-- 🔷 Promo Banner Above Navbar -->
-    <div class="w-full bg-white relative text-black py-2 px-2 overflow-hidden">
+       <div class="w-full bg-white relative text-black py-2 px-2 overflow-hidden">
 
-  <!-- 🔷 Blue + Orange Triangles + Parallelograms: HIDE on Mobile -->
-  <div class="hidden md:block">
-    <!-- 🔺 Blue triangle (top-left) -->
-    <div class="absolute top-0 left-0 w-0 h-0 border-t-[40px] border-r-[40px] border-t-[#2B84EA] border-r-transparent z-10"></div>
+  <!-- Blue triangle (top-left corner) -->
+      <div class="absolute top-0 left-0 w-0 h-0 border-t-[40px] border-r-[40px] border-t-[#2B84EA] border-r-transparent z-10"></div>
+     
 
-    <!-- 🔷 Left-side parallelograms -->
-    <div class="absolute top-0 left-[9px] w-[120px] h-[60px] bg-[#92cce1] skew-x-[-45deg] z-10"></div>
-    <div class="absolute top-0 left-[50px] w-[120px] h-[60px] bg-[#bbecfb] skew-x-[-45deg] z-10"></div>
-    <div class="absolute top-0 left-[150px] w-[120px] h-[60px] bg-[#cfeff4] skew-x-[-45deg] z-10"></div>
+  <!-- 🟩 Parallelogram slanting bottom-left -->
+<div class="absolute top-0 left-[9px] w-[120px] h-[60px] bg-[#92cce1] skew-x-[-45deg] z-10"></div>
+  <!-- 🟩 Parallelogram slanting bottom-left -->
+<div class="absolute top-0 left-[50px] w-[120px] h-[60px] bg-[#bbecfb] skew-x-[-45deg] z-10"></div>
+<!-- 🟩 Parallelogram slanting bottom-left -->
+<div class="absolute top-0 left-[150px] w-[120px] h-[60px] bg-[#cfeff4] skew-x-[-45deg] z-10"></div>
 
-    <!-- 🟧 Orange triangle (bottom-right) -->
-    <div class="absolute bottom-0 right-0 w-0 h-0 border-b-[40px] border-l-[40px] border-b-[#2B84EA] border-l-transparent z-10"></div>
 
-    <!-- 🔷 Right-side parallelograms -->
-    <div class="absolute top-0 right-[27px] w-[45px] h-[60px] bg-[#92cce1] skew-x-[-45deg] z-10"></div>
-    <div class="absolute top-0 right-[70px] w-[120px] h-[60px] bg-[#bbecfb] skew-x-[-45deg] z-10"></div>
-    <div class="absolute top-0 right-[190px] w-[120px] h-[60px] bg-[#cfeff4] skew-x-[-45deg] z-10"></div>
-  </div>
+  <!-- Orange triangle (bottom-right corner) -->
+      <div class="absolute bottom-0 right-0 w-0 h-0 border-b-[40px] border-l-[40px] border-b-[#2B84EA] border-l-transparent z-10"></div>
+      <!-- 🟩 Parallelogram slanting bottom-left -->
+<div class="absolute top-0 right-[27px] w-[45px] h-[60px] bg-[#92cce1] skew-x-[-45deg] z-10"></div>
+ <!-- 🟩 Parallelogram slanting bottom-left -->
+<div class="absolute top-0 right-[70px] w-[120px] h-[60px] bg-[#bbecfb] skew-x-[-45deg] z-10"></div>
+<!-- 🟩 Parallelogram slanting bottom-left -->
+<div class="absolute top-0 right-[190px] w-[120px] h-[60px] bg-[#cfeff4] skew-x-[-45deg] z-10"></div>
+     
 
-  <!-- ✅ Promo Text and Button -->
-  <div class="relative z-20 max-w-[1080px] mx-auto flex flex-col md:flex-row justify-center items-center gap-3 text-sm font-mullish px-4 text-center md:text-left">
-    <p class="text-black">
-      <i class="fas fa-check-circle text-green-500 mr-2"></i>
+  <!-- ✅ Promo text and button -->
+     <div class="relative z-20 max-w-[1080px] mx-auto flex flex-col md:flex-row justify-center items-center gap-3 text-sm font-mullish px-4 text-center md:text-left">
+        <p class="text-black">
+          <i class="fas fa-check-circle text-green-500 mr-2"></i>
       RazorpayX Payroll: 3 Clicks, Payroll Fixed! Automate payroll now!
-    </p>
-
-    <!-- 🔘 Button: HIDE on Mobile -->
-    <a href="#" class="hidden md:inline-block bg-[#2B84EA] text-white px-2 py-1 rounded-sm font-semibold hover:bg-[#1a64c7] transition">
-      Know More
+        </p>
+       <a href="#" class="bg-[#2B84EA] text-white px-1 py-1 rounded-sm font-semibold hover:bg-[#1a64c7] transition  md:mt-0 ">
+        Know More
     </a>
   </div>
-    </div>
-
+       </div>
 
 
   <!--navbar-->
        <nav class="bg-deepBlue">
          <div 
         class="relative w-[1080px] mx-auto flex items-center  justify-between">
+        
           <!--Razorpay Logo-->
             <a href="#" class="cursor-pointer py-7 pr-7">
                 <img src="./image/logo.svg"
@@ -135,8 +136,11 @@
            <!--Login and Sign Up-->
            <div class="flex space-x-6">
             <img src="./image/india-flag.svg" height="20px" width="28px" class="hidden lg:block"/>
-
-            <button class="py-3 px-5 font-mullish text-white border-lightBlue border rounded-sm text-sm font-bold">log in</button>
+           
+            <a href="login.html">
+              <button class="py-3 px-5 font-mullish text-white border-lightBlue border rounded-sm text-sm font-bold">log in</button>
+            </a>
+            
 
             <button class="py-3 px-4 font-mullish text-sm rounded-sm font-bold bg-white text-lightBlue300  border transition-all duration-200 hover:text-lightBlue500 hidden lg:flex ">Sign Up
             <svg
@@ -974,15 +978,39 @@
       <div class="w-11/12 max-w-[1080px] mx-auto relative flex flex-col md:flex-row">
 
         <!-- left part -->
-         <div class="flex flex-col justify-center w-full md:max-w-[calc(100%-500px)] sm:my-16">
-           <h2 class="font-mullish font-extrabold text-2xl text-deepBlueHead">
-            Join the 50,00,000+ businesses using Razorpay</h2>
-           <div class="w-6 h-1 my-4 mb-10 bg-greenLight"></div>
-           <p class="font-mullish opacity-80 text-black font-bold">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
-           <p class="font-mullish mt-6 opacity-80 font-bold">
-            Focus on your business while we handle the complexities of payments for you.</p>
-           
-         </div>
+      
+        <div
+           class="flex flex-col justify-center w-full md:max-w-[calc(100%-500px)] sm:my-16">
+  <h2 class="font-mullish font-extrabold text-2xl text-deepBlueHead">
+    Join the 50,00,000+ businesses using Razorpay
+  </h2>
+  <div class="w-6 h-1 my-4 mb-10 bg-greenLight"></div>
+  
+  <p class="font-mullish opacity-80 text-black font-bold">
+    We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.
+  </p>
+  <p class="font-mullish mt-6 opacity-80 font-bold">
+    Focus on your business while we handle the complexities of payments for you.
+  </p>
+
+  <!-- ✅ Animated Counters -->
+  <div id="stats" class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10 text-center">
+    <div>
+      <h3 class="text-3xl font-extrabold text-blue-600 counter" data-target="5000000">0</h3>
+      <p class="mt-1 text-sm font-semibold">Users</p>
+    </div>
+    <div>
+      <h3 class="text-3xl font-extrabold text-blue-600 counter" data-target="25000000">0</h3>
+      <p class="mt-1 text-sm font-semibold">Transactions</p>
+    </div>
+  <div>
+      <h3 class="text-3xl font-extrabold text-blue-600 counter" data-target="2000">0</h3>
+      <p class="mt-1 text-sm font-semibold">Partners</p>
+    </div>
+  </div>
+        </div>
+        
+
          <!-- right part -->
           <div 
           class="h-[500px] w-[500px] relative overflow-y-hidden mx-aut0">
@@ -1109,10 +1137,43 @@
             </svg>
          </button>
        </div>
+
        <!-- right part -->
         <img src="./image/ctaImg.svg" alt="" width="240px" height="282px" class="mt-16 pt-3 hidden lg:block">
     </div>
    </section>
+   <!-- FAQ -->
+   <section class="bg-gray-50 py-12">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center text-deepBlueHead mb-8">Frequently Asked Questions</h2>
+    
+    <!-- FAQ Item -->
+    <div class="mb-4 border-b">
+      <button class="w-full text-left flex justify-between items-center py-4 font-semibold text-gray-800 faq-question">
+        What is Razorpay used for?
+        <span class="icon transition-transform duration-300" data-feather="chevron-down"></span>
+
+      </button>
+      <div class="faq-answer hidden pb-4 text-gray-600">
+        Razorpay is a payment gateway that helps businesses accept, process, and disburse payments online.
+      </div>
+    </div>
+
+    <!-- FAQ Item -->
+    <div class="mb-4 border-b">
+      <button class="w-full text-left flex justify-between items-center py-4 font-semibold text-gray-800 faq-question">
+        Is Razorpay free to use?
+        <span class="icon transition-transform duration-300" data-feather="chevron-down"></span>
+      </button>
+      <div class="faq-answer hidden pb-4 text-gray-600">
+        Razorpay doesn’t charge setup or maintenance fees. Transaction fees apply only when payments are processed.
+      </div>
+    </div>
+
+    <!-- Add more FAQs as needed -->
+  </div>
+   </section>
+
    <!-- footer -->
     <footer style="background: linear-gradient(to right, #eef9fe, #edf7ff)"
     class="-mt-[400px] md:-mt-[300px]">
@@ -1613,6 +1674,59 @@
 </div>
   <script>
     feather.replace();
+    
+  const counters = document.querySelectorAll(".counter");
+
+  function animateCounters() {
+    counters.forEach((counter) => {
+      counter.innerText = "0";
+      const target = +counter.getAttribute("data-target");
+      const updateCounter = () => {
+        const current = +counter.innerText;
+        const increment = target / 200;
+
+        if (current < target) {
+          counter.innerText = Math.ceil(current + increment);
+          setTimeout(updateCounter, 10);
+        } else {
+          counter.innerText = target.toLocaleString();
+        }
+      };
+      updateCounter();
+    });
+  }
+
+  // Start once on page load
+  animateCounters();
+
+  // 🔁 Repeat every 10 seconds
+  setInterval(animateCounters, 10000);
+
+  // FAQ Toggle
+
+  const questions = document.querySelectorAll('.faq-question');
+
+  questions.forEach((question) => {
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      const icon = question.querySelector('.icon');
+
+      // Toggle current
+      answer.classList.toggle('hidden');
+      icon.classList.toggle('rotate-180');
+
+      // Close others
+      questions.forEach((other) => {
+        if (other !== question) {
+          other.nextElementSibling.classList.add('hidden');
+          other.querySelector('.icon').classList.remove('rotate-180');
+        }
+      });
+    });
+  });
+ 
+  
+
   </script>
 </body>
 </html>
